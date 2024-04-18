@@ -2,7 +2,7 @@ import 'package:bookly_app/utils/functions/app_router.dart';
 import 'package:bookly_app/core/constants.dart';
 import 'package:bookly_app/manager/cubit/featured_books_cubit.dart';
 import 'package:bookly_app/manager/cubit/newest_books_cubit.dart';
-import 'package:bookly_app/repos/homeRepoImp.dart';
+import 'package:bookly_app/features/domain/repos/homeRepoImp.dart';
 import 'package:bookly_app/services/api_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

@@ -7,4 +7,4 @@ abstract class HomeRepos {
   Future<Either<Failure, List<BookModel>>> fetchFeaturedBooks();
   Future<Either<Failure, List<BookModel>>> fetchSimilarBooks(
       {required category});
-}
+} 

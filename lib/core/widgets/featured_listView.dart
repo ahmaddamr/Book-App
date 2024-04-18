@@ -17,17 +17,17 @@ class FeaturedListView extends StatelessWidget {
             height: MediaQuery.of(context).size.height * .3,
             child: ListView.builder(
               itemBuilder: (context, index) {
-                // print();
                 return Padding(
                   padding: const EdgeInsets.all(6.0),
                   child: GestureDetector(
                     onTap: () {
-                      GoRouter.of(context).push(
-                      '/BookDetails',extra:state.books[index] 
-                    );
+                      GoRouter.of(context)
+                          .push('/BookDetails', extra: state.books[index]);
                     },
                     child: ListViewItem(
-                        imageUrl: state.books[index].volumeInfo?.imageLinks?.thumbnail??''),
+                        imageUrl: state.books[index].volumeInfo?.imageLinks
+                                ?.thumbnail ??
+                            ''),
                   ),
                 );
               },
