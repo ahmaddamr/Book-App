@@ -1,4 +1,4 @@
-import 'package:bookly_app/models/book_model/book_model.dart';
+import 'package:bookly_app/home/data/models/book_model/book_model.dart';
 import 'package:bookly_app/core/widgets/bookAction.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
